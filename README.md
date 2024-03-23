@@ -24,9 +24,9 @@ Then open: <http://localhost:5005/>.
 
 **Todo**
 
-- [ ] Nix setup
-- [ ] Process-Compose
-- [ ] Basic rails site
+- [x] Nix setup
+- [x] ~Process-Compose~ Just using foreman.
+- [x] Basic rails site
 - [ ] Very simple db structure: people, updates, tags
 - [ ] Simple REST api for updates
 - [ ] React page to view them
