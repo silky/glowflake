@@ -23,7 +23,7 @@ Then open: <http://localhost:5005/>.
 ### Trivia
 
 - (Auto)-Formatting with `rubocop -A`
-- Look in the database with `sqlitebrowser storage/development.sqlite3
+- Look in the database with `sqlitebrowser storage/development.sqlite3`
 
 
 ### Notes
