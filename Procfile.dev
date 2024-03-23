@@ -1,0 +1,3 @@
+web: env RUBY_DEBUG_OPEN=true PORT=5005 bin/rails server
+js: npx -- yarn build --watch
+css: npx -- yarn build:css --watch

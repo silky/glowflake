@@ -1,5 +1,17 @@
 # Glowflake
 
+### Running
+
+From the Nix shell:
+
+```shell
+npm i
+bundle exec -- foreman start -f Procfile.dev
+```
+
+
+### Notes
+
 **Plan**
 
 - [ ] Work status updates
