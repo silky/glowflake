@@ -1,5 +1,19 @@
 # Glowflake
 
+### Running
+
+From the Nix shell:
+
+```shell
+npm i
+bundle exec -- foreman start -f Procfile.dev
+```
+
+Then open: <http://localhost:5005/>.
+
+
+### Notes
+
 **Plan**
 
 - [ ] Work status updates
