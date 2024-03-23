@@ -38,13 +38,13 @@ Then open: <http://localhost:5005/>.
 
 **Todo**
 
+- [ ] Simple REST api for updates
+- [ ] React page to view them
 - [x] Nix setup
 - [x] ~Process-Compose~ Just using foreman.
 - [x] Basic rails site
 - [x] Very simple db structure: people, updates, tags
-- [ ] Simple REST api for updates
-- [ ] React page to view them
-- [ ] Seed to make a bunch
+- [x] Sample data to make a bunch
 
 
 **Optional todo**
@@ -52,4 +52,4 @@ Then open: <http://localhost:5005/>.
 - [ ] Login with some kind of oauth
 - [ ] Editing updates
 - [ ] Emoji reactions?
-- ???
+- [ ] ???
