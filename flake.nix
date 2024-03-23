@@ -24,9 +24,12 @@
           packages = with pkgs; [
             ourRuby
 
+            rubocop
+
             esbuild
             nodejs
             sqlite
+            sqlitebrowser
           ];
         };
       }
