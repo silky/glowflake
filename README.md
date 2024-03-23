@@ -1,5 +1,13 @@
 # Glowflake
 
+### Database setup
+
+```shell
+rails db:reset
+rails db:generate_sample_data
+```
+
+
 ### Running
 
 From the Nix shell:
@@ -10,6 +18,12 @@ bundle exec -- foreman start -f Procfile.dev
 ```
 
 Then open: <http://localhost:5005/>.
+
+
+### Trivia
+
+- (Auto)-Formatting with `rubocop -A`
+- Look in the database with `sqlitebrowser storage/development.sqlite3
 
 
 ### Notes
@@ -27,7 +41,7 @@ Then open: <http://localhost:5005/>.
 - [x] Nix setup
 - [x] ~Process-Compose~ Just using foreman.
 - [x] Basic rails site
-- [ ] Very simple db structure: people, updates, tags
+- [x] Very simple db structure: people, updates, tags
 - [ ] Simple REST api for updates
 - [ ] React page to view them
 - [ ] Seed to make a bunch
