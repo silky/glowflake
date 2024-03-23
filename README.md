@@ -38,18 +38,19 @@ Then open: <http://localhost:5005/>.
 
 **Todo**
 
-- [ ] Simple REST api for updates
 - [ ] React page to view them
-- [x] Nix setup
-- [x] ~Process-Compose~ Just using foreman.
 - [x] Basic rails site
-- [x] Very simple db structure: people, updates, tags
+- [x] Nix setup
 - [x] Sample data to make a bunch
+- [x] Simple REST api for updates
+- [x] Very simple db structure: people, updates, tags
+- [x] ~Process-Compose~ Just using foreman.
 
 
 **Optional todo**
 
 - [ ] Login with some kind of oauth
 - [ ] Editing updates
-- [ ] Emoji reactions?
+- [ ] Emoji reactions
+- [ ] Tidying up the REST api so it's more efficient (see <https://github.com/silky/glowflake/pull/3>).
 - [ ] ???
