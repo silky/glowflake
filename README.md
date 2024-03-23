@@ -9,6 +9,8 @@ npm i
 bundle exec -- foreman start -f Procfile.dev
 ```
 
+Then open: <http://localhost:5005/>.
+
 
 ### Notes
 
