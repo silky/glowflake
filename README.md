@@ -30,17 +30,18 @@ Then open: <http://localhost:5005/>.
 
 **Plan**
 
-- [ ] Work status updates
-- [ ] People
-- [ ] Minimal information in an update: sentence or two, labels, date.
-- [ ] List of updates by label
+- [x] Work status updates
+- [x] People
+- [x] Minimal information in an update: sentence or two, labels, date.
+- [ ] ~List of updates by label~ Just listing the updates and the labels.
 
 
 **Todo**
 
-- [ ] React page to view them
+- [ ] Document architecture approaches
 - [x] Basic rails site
 - [x] Nix setup
+- [x] React page to view them
 - [x] Sample data to make a bunch
 - [x] Simple REST api for updates
 - [x] Very simple db structure: people, updates, tags
