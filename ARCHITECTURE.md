@@ -65,4 +65,19 @@ light of things like [Hasura](https://hasura.io/); maybe I would outsource the
 graphql api there, keep the react frontend, and use rails for any
 sophisticated server-side logic one requires. But there's a lot to think about
 there; you lose the simplicity of ActiveRecord and gain a fair bit of
-complexity in authentication and database/application structure.
+complexity in authentication and database/application structure
+
+
+### Missing things
+
+So many things:
+
+- Tests
+- CI
+- Stuff for deployment (Docker images, Nix for deployment),
+- Pages for the updates so it doesn't bring everything down,
+- Any ability to _actually_ make updates, edit them, login, etc,
+- Colour checking around tag colouring,
+- A nice design,
+- ...
+- The list goes on :)
