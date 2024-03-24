@@ -59,3 +59,9 @@ improve loads
 `--skip...` I had to set
 - [lobsters](https://github.com/lobsters/lobsters/) seems to be a modern rails
 setup that probably has a lot of best practices I could steal
+- I'm not convinced that a by-hand api definition is the fastest thing in
+light of things like [Hasura](https://hasura.io/); maybe I would outsource the
+graphql api there, keep the react frontend, and use rails for any
+sophisticated server-side logic one requires. But there's a lot to think about
+there; you lose the simplicity of ActiveRecord and gain a fair bit of
+complexity in authentication and database/application structure.
