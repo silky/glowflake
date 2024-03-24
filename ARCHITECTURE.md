@@ -20,6 +20,10 @@ used. In general it'd be better to have parameterised components, say, for an
 update to be rendered anywhere supposing someone has the `update` data. But
 again, this is fine for now.
 
+- *Obtaining data*: We don't do anything interesting; no web-sockets or live
+updates; just a single query on load. Again, another point of improvement in a
+real system (along with pages!)
+
 - *Nix infrastructure*: Using NixOS means I need to do a bit of busywork to
 get a rails environment; and correspondingly even though rails generates, say,
 `.ruby-version`, my environment ignores this. I've got something minimal, but
