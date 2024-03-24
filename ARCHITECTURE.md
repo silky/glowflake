@@ -4,8 +4,9 @@
 
 - *Database stucture*: Everything is fairly simple; only mildly interesting
 part is tags are a seperate table instead of, say, a list on the post. This
-means we can fix the list of tags pretty easily, and manage them. It makes
-some queries a bit more complicated, but it's fine enough.
+means we can fix the list of tags pretty easily, and manage them. Tags can
+represent anything, which is kind of nice (happiness, which company, etc,
+etc). It makes some queries a bit more complicated, but it's fine enough.
 
 We use the basic/default for the primary keys and such; but in real life it's
 probably better to use a UUID.
