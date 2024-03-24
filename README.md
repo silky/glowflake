@@ -4,6 +4,9 @@
 ![](./screenshot.png)
 
 
+Note on the [architecture](./ARCHITECTURE.md).
+
+
 ### Database setup
 
 ```shell
@@ -42,7 +45,7 @@ Then open: <http://localhost:5005/>.
 
 **Todo**
 
-- [ ] Document architecture approaches
+- [x] Document architecture approaches
 - [x] Basic rails site
 - [x] Nix setup
 - [x] React page to view them
@@ -57,5 +60,6 @@ Then open: <http://localhost:5005/>.
 - [ ] Login with some kind of oauth
 - [ ] Editing updates
 - [ ] Emoji reactions
-- [ ] Tidying up the REST api so it's more efficient (see <https://github.com/silky/glowflake/pull/3>).
 - [ ] ???
+- [1/2] Tidying up the REST api so it's more efficient (see <https://github.com/silky/glowflake/pull/3>). This is partially resolved, but certainly there's more to do if one wished.
+
