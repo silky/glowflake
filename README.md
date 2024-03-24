@@ -1,5 +1,9 @@
 # Glowflake
 
+
+![](./screenshot.png)
+
+
 ### Database setup
 
 ```shell
