@@ -40,7 +40,7 @@ Then open: <http://localhost:5005/>.
 - [x] Work status updates
 - [x] People
 - [x] Minimal information in an update: sentence or two, labels, date.
-- [ ] ~List of updates by label~ Just listing the updates and the labels.
+- [x] ~List of updates by label~ Just listing the updates and the labels.
 
 
 **Todo**
