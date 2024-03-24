@@ -19,7 +19,7 @@ module Api
           { 'person' => { 'name' => u.person.name, 'image' => u.person.image },
             'content' => u.content,
             'tags' => tags.map { |t| { 'name' => t.tag.name, 'colour' => t.tag.colour } },
-            'created_ago' => time_ago_in_words(u.created_at) + " ago",
+            'created_ago' => "#{time_ago_in_words(u.created_at)} ago",
             'created_at' => u.created_at }
         end
         render json: result
