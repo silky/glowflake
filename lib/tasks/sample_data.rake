@@ -25,10 +25,11 @@ namespace :db do
 
       n.times do
         update = WorkUpdate.create(person_id: p.id,
-                                   content: Faker::Markdown.sandwich(sentences: 3))
-        tag = tags.sample
+                                   content: Faker::Markdown.sandwich(sentences: 3),
+                                   created_at: Faker::Time.backward(days: 1000))
         k = rand(0..5)
         k.times do
+          tag = tags.sample
           TagWorkUpdate.create(tag_id: tag.id,
                                work_update_id: update.id)
         rescue ActiveRecord::RecordNotUnique
